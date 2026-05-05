@@ -42,11 +42,11 @@ If you don’t specify a namespace, `get pods` returns the pods in the `default`
 kubectl get pods --all-namespaces
 ``` 
 
-### Retrieve Logs
+### Get Logs
 
-The `kubectl logs` command retrieves logs from a specified pod or container. Logs provide application-level debug information. 
+The `kubectl logs` command gets logs from a specified pod or container. Logs provide application-level debug information. 
 
-Use the following command formats to retrieve logs: 
+Use the following command formats to get logs: 
 
 
 * From a Pod: `kubectl logs <pod_name>`
@@ -55,7 +55,7 @@ Use the following command formats to retrieve logs:
 * In a Specific Namespace: `kubectl logs <pod_name> -n <namespace_name>`
 
 
-For example, to retrieve the logs for the `nginx-0` pod: 
+For example, to get the logs for the `nginx-0` pod: 
 
 ```shell
 kubectl logs nginx-0
@@ -153,7 +153,7 @@ If you don't see a command prompt, try pressing enter.
 We recommend the following debug workflow: 
 
 1. Start with `kubectl get pods` to list each pod’s status and identify failing pods.  
-2. Use `kubectl logs` to retrieve application-level information.  
+2. Use `kubectl logs` to get application-level information.  
 3. Use `kubectl exec` to execute debug commands inside active containers.  
 4. Use `kubectl debug` to create a clone of a crashed pod, or to create a temporary container and launch diagnostic tools. 
 
