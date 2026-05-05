@@ -10,7 +10,7 @@ In a Kubernetes cluster:
 * Pods host containers. A container is a software package containing everything needed to execute an application.  
 * Namespaces are used to organize pods. For example, you can create namespaces for different users or environments. 
 
-You can deploy a Kubernetes cluster on cloud providers such as AWS, Azure, or GCE, or on bare metal (a physical server). You can also launch a cluster locally using Minikube, Docker Desktop, or Kubernetes in Docker. 
+You can deploy a Kubernetes cluster on cloud providers such as AWS, Azure, and GCE, or on bare metal (a physical server). You can also launch a cluster locally using Minikube, Docker Desktop, or Kubernetes in Docker. 
 
 ## Debug a Cluster with `kubectl`
 
