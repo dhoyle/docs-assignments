@@ -14,7 +14,7 @@ You can deploy a Kubernetes cluster on cloud providers such as AWS, Azure, and G
 
 ## Debug a Cluster with `kubectl`
 
-You can use the `kubectl` command-line interface (CLI) to interact with, manage, and debug a Kubernetes cluster. The `kubectl` CLI acts as a bridge to the cluster's control plane by translating your terminal commands into requests that the Kubernetes cluster can understand. You can install `kubectl` on macOS, Windows, or Linux. 
+You can use the `kubectl` Command Line Interface (CLI) to interact with, manage, and debug a Kubernetes cluster. The `kubectl` CLI acts as a bridge to the cluster's control plane by translating your terminal commands into requests that the Kubernetes cluster can understand. You can install `kubectl` on macOS, Windows, or Linux. 
 
 ### List Pods
 
